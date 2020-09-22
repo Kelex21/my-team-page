@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+    -o-box-sizing: inherit;
+    -ms-box-sizing: inherit;
+    -webkit-box-sizing: inherit;
+}
