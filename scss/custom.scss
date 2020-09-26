@@ -1,4 +1,6 @@
 html {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     -o-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -12,4 +14,113 @@ html {
     -o-box-sizing: inherit;
     -ms-box-sizing: inherit;
     -webkit-box-sizing: inherit;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: $white;
+}
+
+.container {
+    width: 100%;
+    max-width: $deskto1;
+    margin: 0 auto;
+}
+
+aside {
+    display: flex;
+    width: 69%;
+    margin: 4rem auto;
+    .box-left {
+        width: 60%;
+        h1 {
+            font-family: $pt_serif;
+            font-weight: 700;
+            font-size: 36px;
+            color: $black;
+        }
+    }
+    .box-right {
+        width: 40%;
+        h3 {
+            font-family: $poppins;
+            font-weight: 600;
+            font-size: 18px;
+            text-transform: uppercase;
+            color: $black;
+        }
+        p {
+            font-family: $poppins;
+            font-size: 18px;
+            font-weight: 400;
+            font-size: 18px;
+        }
+    }
+}
+
+section {
+    width: 72.5%;
+    margin: 0 10rem 10rem;
+    height: 68rem;
+    .photos {
+        display: flex;
+        justify-content: space-between;
+        .column {
+            width: 264px;
+            height: 383px;
+            .photo {
+                display: flex;
+                width: 264px;
+                height: 383px;
+                margin: 50px;
+                margin-bottom: 8rem;
+                .left {
+                    img {
+                        height: 341px;
+                        width: 238px;
+                    }
+                    .name {
+                        font-family: $poppins;
+                        font-weight: 600;
+                        font-size: 18px;
+                        color: black;
+                    }
+                }
+                .right {
+                    .profession {
+                        font-family: $pt_serif;
+                        font-weight: 400;
+                        font-size: 12px;
+                        text-transform: uppercase;
+                        position: absolute;
+                        margin-left: 25px;
+                        margin-top: 1px;
+                        transform: rotate(90deg);
+                        transform-origin: 0 0;
+                    }
+                }
+            }
+        }
+        .column_down {
+            margin-top: 8rem;
+        }
+    }
+}
+
+footer {
+    text-align: center;
+    font-family: $montserrat;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 3rem;
+    color: $gray;
+    p {
+        a {
+            color: $special_color;
+            text-decoration: none;
+        }
+    }
 }

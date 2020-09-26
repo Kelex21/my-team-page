@@ -1,0 +1,122 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+  -o-box-sizing: inherit;
+  -ms-box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #FAFAFA;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+aside {
+  display: flex;
+  width: 69%;
+  margin: 4rem auto;
+}
+aside .box-left {
+  width: 60%;
+}
+aside .box-left h1 {
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000;
+}
+aside .box-right {
+  width: 40%;
+}
+aside .box-right h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000000;
+}
+aside .box-right p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+section {
+  width: 72.5%;
+  margin: 0 10rem 10rem;
+  height: 68rem;
+}
+section .photos {
+  display: flex;
+  justify-content: space-between;
+}
+section .photos .column {
+  width: 264px;
+  height: 383px;
+}
+section .photos .column .photo {
+  display: flex;
+  width: 264px;
+  height: 383px;
+  margin: 50px;
+  margin-bottom: 8rem;
+}
+section .photos .column .photo .left img {
+  height: 341px;
+  width: 238px;
+}
+section .photos .column .photo .left .name {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: black;
+}
+section .photos .column .photo .right .profession {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 1px;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+}
+section .photos .column_down {
+  margin-top: 8rem;
+}
+
+footer {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 3rem;
+  color: #A9A9A9;
+}
+footer p a {
+  color: #EE402C;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
