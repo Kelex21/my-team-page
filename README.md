@@ -31,7 +31,7 @@
 
 ## Overview
 
-<img src="assets/screenshot/ScreenShot.png" />
+<img src="assets/screenshot/screenshot.jpeg" />
 
 
 ### Built With
