@@ -106,7 +106,7 @@ section .photos .new_column {
   display: none;
 }
 section .photos .column_down {
-  margin-top: 8rem;
+  margin-top: 6rem;
 }
 
 footer {
