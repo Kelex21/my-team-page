@@ -102,6 +102,9 @@ section .photos .column .photo .right .profession {
   transform: rotate(90deg);
   transform-origin: 0 0;
 }
+section .photos .new_column {
+  display: none;
+}
 section .photos .column_down {
   margin-top: 8rem;
 }
@@ -117,6 +120,77 @@ footer {
 footer p a {
   color: #EE402C;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1366px) {
+  aside {
+    width: 70%;
+  }
+  aside .box-left {
+    width: 55%;
+  }
+
+  section {
+    margin: 0 9rem 10rem;
+  }
+}
+@media screen and (max-width: 1068px) {
+  aside {
+    width: 75%;
+  }
+  aside .box-right {
+    width: 60%;
+  }
+
+  section {
+    width: 80%;
+    margin: 0 4.1rem 8rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  aside {
+    width: 100%;
+    flex-direction: column;
+    padding: 0.5rem;
+    margin: 0 auto;
+  }
+  aside .box-left {
+    width: 100%;
+  }
+  aside .box-right {
+    width: 90%;
+  }
+  aside .box-right p {
+    font-size: 14px;
+  }
+
+  section {
+    margin: 2rem 0.8rem 1rem;
+    width: 100%;
+    height: 60rem;
+  }
+  section .photos .column {
+    display: none;
+  }
+  section .photos .new_column {
+    display: block;
+  }
+  section .photos .new_column .photo {
+    margin: 0 0 -5rem 0;
+    width: 154px;
+  }
+  section .photos .new_column .photo .left img {
+    width: 138.72px;
+    height: 209px;
+  }
+  section .photos .new_column .photo .right .profession {
+    margin-left: 15px;
+    font-size: 10px;
+    width: 100px;
+  }
+  section .photos .column_down {
+    margin-top: 3rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
